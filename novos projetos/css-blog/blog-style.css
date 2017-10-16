@@ -12,9 +12,10 @@ body{
 
 #container{
     width: 65%;
-    position: fixed;
+    /* position: fixed;
     left: 50%;
-    margin-left: -35%;
+    margin-left: -35%; */
+    margin: 20px auto;
     border: #bdc3c7 solid 15px;
     padding: 15px;
 }
