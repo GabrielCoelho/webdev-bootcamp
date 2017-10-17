@@ -2,7 +2,7 @@ var number = Math.floor((Math.random() * 100) + 1);
 console.log(number);
 var guessed = false;
 console.log(guessed);
-while(guessed == false){
+while(!guessed){
     var guess = prompt("Guess a number " + number);
 
     if(guess < number){
